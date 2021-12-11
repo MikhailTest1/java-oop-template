@@ -1,6 +1,7 @@
 package com.epam.izh.rd.online.repository;
 
 import com.epam.izh.rd.online.entity.Book;
+import com.epam.izh.rd.online.entity.SchoolBook;
 
 /**
  * Интерфейс репозитория для хранения данных о книгах
@@ -24,7 +25,7 @@ public interface BookRepository<T extends Book> {
      * <p>
      * Если сохранение прошло успешно, метод должен вернуть true.
      */
-    boolean save(T book);
+    boolean save(SchoolBook book);
 
     /**
      * Метод должен находить в массиве schoolBooks все книги по имени.

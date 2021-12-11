@@ -56,4 +56,5 @@ public interface AuthorRepository {
      * Метод возвращает количество сохраненных сущностей в массиве authors.
      */
     int count();
+
 }
